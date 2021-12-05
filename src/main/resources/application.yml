@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/JWT
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+#  liquibase:
+#    enabled: true
+#    change-log: classpath:db/changelog/changelog-master.xml
